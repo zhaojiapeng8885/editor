@@ -1,22 +1,27 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<title>Trumbowyg测试</title>
+  <title>Trumbowyg测试</title>
 </head>
 <link rel="stylesheet" href="./css/trumbowyg.min.css">
 
 <body>
-	<div>
-		<h1>测试文件</h1>
-	</div>
-	<div class="editor-demo">
-		
-	</div>
-	<script src="js/jquery.min.js"></script>
-	<script src="js/trumbowyg.min.js"></script>
-	<script type="text/javascript">
-		$.trumbowyg.svgPath = 'https://zhaojiapeng8885.github.io/editor/css/icons.svg';
-		$('.editor-demo').trumbowyg();
-	</script>
+  <div>
+    <h1>测试文件</h1>
+  </div>
+  <div class="editor-demo">
+  </div>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/trumbowyg.min.js"></script>
+  <script type="text/javascript">
+  $.trumbowyg.svgPath = 'https://zhaojiapeng8885.github.io/editor/css/icons.svg';
+  $('#trumbowyg-demo').trumbowyg({
+    fullscreenable: false,
+    closable: true,
+    btns: ['bold', 'italic', '|', 'insertImage']
+  });
+  </script>
 </body>
+
 </html>
