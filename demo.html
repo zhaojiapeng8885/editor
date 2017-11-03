@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Trumbowyg测试</title>
+</head>
+<link rel="stylesheet" href="./css/trumbowyg.min.css">
+
+<body>
+	<div class="editor-demo">
+		
+	</div>
+	<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="./js/trumbowyg.min.js"></script>
+	<script type="text/javascript">
+		$.trumbowyg.svgPath = 'https://github.com/zhaojiapeng8885/editor/css/icons.svg';
+		$('.editor-demo').trumbowyg({
+			btns: [['bold', 'italic'], ['link']]
+		});
+
+	</script>
+</body>
+</html>
