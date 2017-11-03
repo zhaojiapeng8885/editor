@@ -15,12 +15,14 @@
   <script src="js/jquery.min.js"></script>
   <script src="js/trumbowyg.min.js"></script>
   <script type="text/javascript">
-  $.trumbowyg.svgPath = 'https://zhaojiapeng8885.github.io/editor/css/icons.svg';
-  $('#trumbowyg-demo').trumbowyg({
-    fullscreenable: false,
-    closable: true,
-    btns: ['bold', 'italic', '|', 'insertImage']
-  });
+		  $.trumbowyg.svgPath = 'https://zhaojiapeng8885.github.io/editor/css/icons.svg';
+		  $('#trumbowyg-demo').trumbowyg({
+		    fullscreenable: false,
+		    closable: true,
+		    autogrow: true,
+		    btns: ['bold', 'italic'], ['link'], ['insertImage'],
+
+		  });
   </script>
 </body>
 
